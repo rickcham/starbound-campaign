@@ -1,0 +1,26 @@
+*{
+    color: white;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-image: url(/sistemaLivros/pexels-cottonbro-9665177.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
+}
+
+a{
+    margin: 0;
+    font-size: 20px;
+
+}
+section{
+
+min-height: 500px
+;
+
+}
+img{
+    max-width: 500px;
+    max-height: 500px;
+}

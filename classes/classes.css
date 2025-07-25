@@ -1,0 +1,59 @@
+*{
+    color: white;
+
+}
+body{
+    background-image: url(/sistemaLivros/pexels-cottonbro-9665177.jpg);
+
+}
+
+header{
+    display: flex;
+    height: 50vw;
+}
+
+div{
+text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+img{
+
+width: 40vw;
+height: 20vw;
+filter: brightness(30%);
+transition: 1s;
+margin: 20px 0px 10px 0px;
+}
+
+li{
+    margin: 0px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(13, auto);
+gap: 5em;
+  }
+
+
+
+img:hover{
+filter:brightness(130%);
+transition: 1s;
+height: 25vw;
+width: 45vw;
+}

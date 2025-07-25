@@ -1,0 +1,70 @@
+*{color: white;
+scroll-behavior: smooth;
+}
+
+
+body{
+overflow-x: hidden;
+background-image: url(pexels-cottonbro-9665177.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+div{
+    display: flex;
+}
+img{
+width: 500px;
+height: 500px;}
+figcaption{
+font-size: 1.5em;}
+
+main::after{
+
+position: absolute;
+background-image: url(universe.jpg);
+}
+
+main{
+    position: relative;
+width: 100vw;                  /* define a max width */
+max-width: 90vw;           /* optional: prevents stretching too wide */
+margin: auto;              /* centers it horizontally */
+
+column-count: 2;
+column-gap: 100px;
+column-fill: auto;
+
+padding-left: 25px;
+padding-right: 25px;
+box-sizing: border-box;   
+}
+
+#Viagem{
+    text-align: center;
+font-size: 2em;}
+
+
+
+.valdaszaman img:first-child{
+    flex: 1;
+    width: 35vw;
+}
+.valdaszaman img:last-child{
+
+    flex: 2;
+    width: 35vw;
+}
+.nave{
+width: 100vw;} 
+
+
+.monstersteinhardt img:first-child{
+
+    flex: 1;
+    width: 35vw;
+}
+.monstersteinhardt img:last-child{
+        flex: 2;
+        width: 35vw;}

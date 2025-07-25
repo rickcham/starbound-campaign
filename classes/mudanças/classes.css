@@ -1,0 +1,10 @@
+body{
+
+background-image: url(/sistemaLivros/pexels-cottonbro-9665177.jpg);
+}
+main{
+    margin: auto;
+background-color: aliceblue;
+width: 80vw;
+height: 40vw;
+}
