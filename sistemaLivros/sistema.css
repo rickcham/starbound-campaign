@@ -5,7 +5,7 @@ scroll-behavior: smooth;
 
 body{
 overflow-x: hidden;
-background-image: url(universe.jpg);
+background-image: url(../universe.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
